@@ -33,7 +33,7 @@ source('https://raw.githubusercontent.com/codeparkhouston/events-data/master/scr
 | Num.Participants | Approximate number of participants.  For repeating classes, only the first class has the total number of participants. |
 | Description | Description of the event |
 | program_type | One of 4 program types |
-| is_adults | Is the event targeted at grades 12 + ? |
+| is_adults | Is the event targeted at grades 12+ ? |
 | Total.Service.Hours | Time duration of event |
 
 ### Site Details
