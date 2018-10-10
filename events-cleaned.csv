@@ -104,74 +104,44 @@
 "ASCII Art","June 21, 2018 3:00pm","June 21, 2018 4:30pm","Moody Neighborhood Library","1:30",3,"Coding and the Arts","Students will be guided through a program in Python or JavaScript that converts photos and cartoon images to ASCII art, images made purely from text. Along the way, they’ll learn a little about pixels, how computers manipulate images, and using loops to code repetitive tasks. At the end of class, students will have their ASCII art printed out to take home.",FALSE
 "Raspberry Jam","June 26, 2018 8:00am","June 26, 2018 1:00pm","AIG Office","5:00",12,"The Ripple Effect","Raspberry Jams are community events for people to come together to learn about digital making with Raspberry Pi. Jam events come in all shapes and sizes: workshops for beginners, drop-in sessions to work on your own projects, show-and-tell, talks, and more. A Jam is a meeting of all kinds of people: some will be new to physical computing, and some will have plenty of experience that they are happy to share. Jams are welcoming events where you’ll meet and learn from like-minded people in a friendly environment.",TRUE
 "ASCII Art","June 28, 2018 1:30pm","June 28, 2018 2:30pm","Henington-Alief Regional Library","1:00",7,"Coding and the Arts","Students will be guided through a program in Python or JavaScript that converts photos and cartoon images to ASCII art, images made purely from text. Along the way, they’ll learn a little about pixels, how computers manipulate images, and using loops to code repetitive tasks. At the end of class, students will have their ASCII art printed out to take home.",FALSE
-"CS First - Story Telling","July 2, 2018 4:30pm","July 2, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",15,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","July 2, 2018 4:30pm","July 2, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",15,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
 "Musical DJ - Live Coding","July 5, 2018 11:00am","July 5, 2018 12:30pm","Lakewood Neighborhood Library at Service Center","1:30",10,"Coding and the Arts","Students make music using code! We'll experiment with sounds and code computers to make notes and songs for us. Students will learn about coding concepts such as loops, timing, and using numbers while expressing their creativity.",FALSE
 "Creative Coding with p5js","July 5, 2018 3:00pm","July 5, 2018 4:30pm","Scenic Woods Regional Library","1:30",5,"Coding and the Arts","Lights, music, internet! Students will be introduced to creative coding with HTML, CSS, and JavaScript.",FALSE
 "Circuit Beats","July 7, 2018 10:00am","July 7, 2018 2:00pm","Finnigan Community Center","4:00",40,"Invent to Learn","Students will be introduced to coding and circuitry concepts with the MakeyMakey circuit board to construct custom-coded electronics. 
 Students will be able to experience being the creators, and not just the consumers of technological inventions.",FALSE
-"CS First - Story Telling","July 9, 2018 4:30pm","July 9, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","July 11, 2018 4:30pm","July 11, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","July 16, 2018 4:30pm","July 16, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","July 9, 2018 4:30pm","July 9, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","July 11, 2018 4:30pm","July 11, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","July 16, 2018 4:30pm","July 16, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
 "Creative Coding with p5js","July 18, 2018 1:30pm","July 18, 2018 3:00pm","Young Neighborhood Library","1:30",2,"Coding and the Arts","Lights, music, internet! Students will be introduced to creative coding with HTML, CSS, and JavaScript.",FALSE
-"CS First - Story Telling","July 18, 2018 4:30pm","July 18, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","July 18, 2018 4:30pm","July 18, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
 "ASCII Art","July 19, 2018 2:00pm","July 19, 2018 3:00pm","Houston Public Library - Central Library","1:00",1,"Coding and the Arts","Students will be guided through a program in Python or JavaScript that converts photos and cartoon images to ASCII art, images made purely from text. Along the way, they’ll learn a little about pixels, how computers manipulate images, and using loops to code repetitive tasks. At the end of class, students will have their ASCII art printed out to take home.",FALSE
 "Invent to Learn at FabLab Houston","July 23, 2018 10:00am","July 23, 2018 2:00pm","FabLab Houston","4:00",14,"Invent to Learn","The Invent to Learn Program in partnership with Baker Ripley FabLab Houston is project-based summer maker and computer science summer camp. Students learn to make data visualization, art and so much more with Python programming and apply their skills to projects using maker skills such as 3D Printing, Ceramics, and Book Binding.",FALSE
-"CS First - Story Telling","July 23, 2018 4:30pm","July 23, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","July 23, 2018 4:30pm","July 23, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
 "Invent to Learn at FabLab Houston","July 24, 2018 10:00am","July 24, 2018 2:00pm","FabLab Houston","4:00",NA,"Invent to Learn","The Invent to Learn Program in partnership with Baker Ripley FabLab Houston is project-based summer maker and computer science summer camp. Students learn to make data visualization, art and so much more with Python programming and apply their skills to projects using maker skills such as 3D Printing, Ceramics, and Book Binding.",FALSE
 "Invent to Learn at FabLab Houston","July 25, 2018 10:00am","July 25, 2018 2:00pm","FabLab Houston","4:00",NA,"Invent to Learn","The Invent to Learn Program in partnership with Baker Ripley FabLab Houston is project-based summer maker and computer science summer camp. Students learn to make data visualization, art and so much more with Python programming and apply their skills to projects using maker skills such as 3D Printing, Ceramics, and Book Binding.",FALSE
 "ASCII Art","July 25, 2018 1:30pm","July 25, 2018 2:30pm","Young Neighborhood Library","1:00",7,"Coding and the Arts","Students will be guided through a program in Python or JavaScript that converts photos and cartoon images to ASCII art, images made purely from text. Along the way, they’ll learn a little about pixels, how computers manipulate images, and using loops to code repetitive tasks. At the end of class, students will have their ASCII art printed out to take home.",FALSE
-"CS First - Story Telling","July 25, 2018 4:30pm","July 25, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","July 25, 2018 4:30pm","July 25, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
 "Invent to Learn at FabLab Houston","July 26, 2018 10:00am","July 26, 2018 2:00pm","FabLab Houston","4:00",NA,"Invent to Learn","The Invent to Learn Program in partnership with Baker Ripley FabLab Houston is project-based summer maker and computer science summer camp. Students learn to make data visualization, art and so much more with Python programming and apply their skills to projects using maker skills such as 3D Printing, Ceramics, and Book Binding.",FALSE
 "Invent to Learn at FabLab Houston","July 27, 2018 10:00am","July 27, 2018 2:00pm","FabLab Houston","4:00",NA,"Invent to Learn","The Invent to Learn Program in partnership with Baker Ripley FabLab Houston is project-based summer maker and computer science summer camp. Students learn to make data visualization, art and so much more with Python programming and apply their skills to projects using maker skills such as 3D Printing, Ceramics, and Book Binding.",FALSE
 "Invent to Learn at FabLab Houston","July 30, 2018 10:00am","July 30, 2018 2:00pm","FabLab Houston","4:00",NA,"Invent to Learn","The Invent to Learn Program in partnership with Baker Ripley FabLab Houston is project-based summer maker and computer science summer camp. Students learn to make data visualization, art and so much more with Python programming and apply their skills to projects using maker skills such as 3D Printing, Ceramics, and Book Binding.",FALSE
-"CS First - Story Telling","July 30, 2018 4:30pm","July 30, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","July 30, 2018 4:30pm","July 30, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
 "Invent to Learn at FabLab Houston","July 31, 2018 10:00am","July 31, 2018 2:00pm","FabLab Houston","4:00",NA,"Invent to Learn","The Invent to Learn Program in partnership with Baker Ripley FabLab Houston is project-based summer maker and computer science summer camp. Students learn to make data visualization, art and so much more with Python programming and apply their skills to projects using maker skills such as 3D Printing, Ceramics, and Book Binding.",FALSE
 "Invent to Learn at FabLab Houston","August 1, 2018 10:00am","August 1, 2018 2:00pm","FabLab Houston","4:00",NA,"Invent to Learn","The Invent to Learn Program in partnership with Baker Ripley FabLab Houston is project-based summer maker and computer science summer camp. Students learn to make data visualization, art and so much more with Python programming and apply their skills to projects using maker skills such as 3D Printing, Ceramics, and Book Binding.",FALSE
-"CS First - Story Telling","August 1, 2018 4:30pm","August 1, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","August 1, 2018 4:30pm","August 1, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
 "Invent to Learn at FabLab Houston","August 2, 2018 10:00am","August 2, 2018 2:00pm","FabLab Houston","4:00",NA,"Invent to Learn","The Invent to Learn Program in partnership with Baker Ripley FabLab Houston is project-based summer maker and computer science summer camp. Students learn to make data visualization, art and so much more with Python programming and apply their skills to projects using maker skills such as 3D Printing, Ceramics, and Book Binding.",FALSE
 "Invent to Learn at FabLab Houston","August 3, 2018 10:00am","August 3, 2018 2:00pm","FabLab Houston","4:00",NA,"Invent to Learn","The Invent to Learn Program in partnership with Baker Ripley FabLab Houston is project-based summer maker and computer science summer camp. Students learn to make data visualization, art and so much more with Python programming and apply their skills to projects using maker skills such as 3D Printing, Ceramics, and Book Binding.",FALSE
 "Invent to Learn at FabLab Houston","August 6, 2018 10:00am","August 6, 2018 2:00pm","FabLab Houston","4:00",NA,"Invent to Learn","The Invent to Learn Program in partnership with Baker Ripley FabLab Houston is project-based summer maker and computer science summer camp. Students learn to make data visualization, art and so much more with Python programming and apply their skills to projects using maker skills such as 3D Printing, Ceramics, and Book Binding.",FALSE
-"CS First - Story Telling","August 6, 2018 4:30pm","August 6, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","August 6, 2018 4:30pm","August 6, 2018 6:00pm","Leonel Castillo Baker Ripley Community Center","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
 "Invent to Learn at FabLab Houston","August 7, 2018 10:00am","August 7, 2018 2:00pm","FabLab Houston","4:00",NA,"Invent to Learn","The Invent to Learn Program in partnership with Baker Ripley FabLab Houston is project-based summer maker and computer science summer camp. Students learn to make data visualization, art and so much more with Python programming and apply their skills to projects using maker skills such as 3D Printing, Ceramics, and Book Binding.",FALSE
 "Invent to Learn at FabLab Houston","August 8, 2018 10:00am","August 8, 2018 2:00pm","FabLab Houston","4:00",NA,"Invent to Learn","The Invent to Learn Program in partnership with Baker Ripley FabLab Houston is project-based summer maker and computer science summer camp. Students learn to make data visualization, art and so much more with Python programming and apply their skills to projects using maker skills such as 3D Printing, Ceramics, and Book Binding.",FALSE
 "Invent to Learn at FabLab Houston","August 9, 2018 10:00am","August 9, 2018 2:00pm","FabLab Houston","4:00",NA,"Invent to Learn","The Invent to Learn Program in partnership with Baker Ripley FabLab Houston is project-based summer maker and computer science summer camp. Students learn to make data visualization, art and so much more with Python programming and apply their skills to projects using maker skills such as 3D Printing, Ceramics, and Book Binding.",FALSE
@@ -180,153 +150,81 @@ necessary. Have your friends join too - the CS First Storytelling club is social
 "Intro to Python with Minecraft ","September 18, 2018 10:30am","September 18, 2018 12:00pm","FabLab Houston","1:30",9,"Coding and the Arts","This class is an introduction to coding for students aged 12-18 using Minecraft: Pi Edition and Python. With Coding in Minecraft, students will learn real world programming skills through guided lessons, creating their own in-game content along the way.",FALSE
 "Mentorship at Inventathon","September 22, 2018 10:00am","September 23, 2018 4:00pm","Houston Community College - Stafford Campus","30:00",60,"Invent to Learn","",FALSE
 "Youth Hackathon","October 13, 2018 10:00am","October 14, 2018 3:00pm","George R Brown Convention Center","29:00",NA,"Invent to Learn","How might we improve our community with the makers movement? Young makers form teams to learn maker skills then work together to tackle real-world problems such as air quality monitoring, information security, and animal rescue.",FALSE
-"CS First - Story Telling","October 8, 2018 5:00pm","October 8, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Friends","October 10, 2018 5:00pm","October 10, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create cool projects with a friend! Design and program your own two-player games, create animated stories, and imagine
+"Creative Coding - Storytelling","October 8, 2018 5:00pm","October 8, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Friends","October 10, 2018 5:00pm","October 10, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create cool projects with a friend! Design and program your own two-player games, create animated stories, and imagine
 your future. Learn about how people change
 the world with computers. Grab a friend and sign up!
 You don’t need any experience with computers to sign up. Just bring your creativity and curiosity!",FALSE
-"CS First - Story Telling","October 15, 2018 5:00pm","October 15, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Friends","October 17, 2018 5:00pm","October 17, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create cool projects with a friend! Design and program your own two-player games, create animated stories, and imagine
+"Creative Coding - Storytelling","October 15, 2018 5:00pm","October 15, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Friends","October 17, 2018 5:00pm","October 17, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create cool projects with a friend! Design and program your own two-player games, create animated stories, and imagine
 your future. Learn about how people change
 the world with computers. Grab a friend and sign up!
 You don’t need any experience with computers to sign up. Just bring your creativity and curiosity!",FALSE
-"CS First - Story Telling","October 22, 2018 5:00pm","October 22, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Friends","October 24, 2018 5:00pm","October 24, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create cool projects with a friend! Design and program your own two-player games, create animated stories, and imagine
+"Creative Coding - Storytelling","October 22, 2018 5:00pm","October 22, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Friends","October 24, 2018 5:00pm","October 24, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create cool projects with a friend! Design and program your own two-player games, create animated stories, and imagine
 your future. Learn about how people change
 the world with computers. Grab a friend and sign up!
 You don’t need any experience with computers to sign up. Just bring your creativity and curiosity!",FALSE
-"CS First - Story Telling","October 29, 2018 5:00pm","October 29, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","November 5, 2018 5:00pm","November 5, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Friends","November 7, 2018 5:00pm","November 7, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create cool projects with a friend! Design and program your own two-player games, create animated stories, and imagine
+"Creative Coding - Storytelling","October 29, 2018 5:00pm","October 29, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","November 5, 2018 5:00pm","November 5, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Friends","November 7, 2018 5:00pm","November 7, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create cool projects with a friend! Design and program your own two-player games, create animated stories, and imagine
 your future. Learn about how people change
 the world with computers. Grab a friend and sign up!
 You don’t need any experience with computers to sign up. Just bring your creativity and curiosity!",FALSE
-"CS First - Story Telling","November 12, 2018 5:00pm","November 12, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Friends","November 14, 2018 5:00pm","November 14, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create cool projects with a friend! Design and program your own two-player games, create animated stories, and imagine
+"Creative Coding - Storytelling","November 12, 2018 5:00pm","November 12, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Friends","November 14, 2018 5:00pm","November 14, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create cool projects with a friend! Design and program your own two-player games, create animated stories, and imagine
 your future. Learn about how people change
 the world with computers. Grab a friend and sign up!
 You don’t need any experience with computers to sign up. Just bring your creativity and curiosity!",FALSE
-"CS First - Story Telling","October 8, 2018 4:30pm","October 8, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","October 10, 2018 4:30pm","October 10, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","October 15, 2018 4:30pm","October 15, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","October 17, 2018 4:30pm","October 17, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","October 22, 2018 4:30pm","October 22, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","October 24, 2018 4:30pm","October 24, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","October 29, 2018 4:30pm","October 29, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","October 31, 2018 4:30pm","October 31, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","November 5, 2018 4:30pm","November 5, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","November 7, 2018 4:30pm","November 7, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","November 12, 2018 4:30pm","November 12, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","November 14, 2018 4:30pm","November 14, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","November 26, 2018 4:30pm","November 26, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","November 28, 2018 4:30pm","November 28, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","December 3, 2018 4:30pm","December 3, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","December 5, 2018 4:30pm","December 5, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","December 10, 2018 4:30pm","December 10, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Story Telling","December 12, 2018 4:30pm","December 12, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own
-digital stories! Use the computer to design your own
-stories, create and share your own animations, and learn how technology is used in the film and media industry!
-Bring your friends! No previous computer experience is
-necessary. Have your friends join too - the CS First Storytelling club is social and fun!",FALSE
-"CS First - Friends","October 31, 2018 5:00pm","October 24, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","-166:00",NA,"Coding and the Arts","Create cool projects with a friend! Design and program your own two-player games, create animated stories, and imagine
+"Creative Coding - Storytelling","October 8, 2018 4:30pm","October 8, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","October 10, 2018 4:30pm","October 10, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","October 15, 2018 4:30pm","October 15, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","October 17, 2018 4:30pm","October 17, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","October 22, 2018 4:30pm","October 22, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","October 24, 2018 4:30pm","October 24, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","October 29, 2018 4:30pm","October 29, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","October 31, 2018 4:30pm","October 31, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","November 5, 2018 4:30pm","November 5, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","November 7, 2018 4:30pm","November 7, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","November 12, 2018 4:30pm","November 12, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","November 14, 2018 4:30pm","November 14, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","November 26, 2018 4:30pm","November 26, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","November 28, 2018 4:30pm","November 28, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","December 3, 2018 4:30pm","December 3, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","December 5, 2018 4:30pm","December 5, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","December 10, 2018 4:30pm","December 10, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Storytelling","December 12, 2018 4:30pm","December 12, 2018 6:00pm","Gallegos Elementary School","1:30",NA,"Coding and the Arts","Create and share your own digital stories! Use the computer to design your own stories, create and share your own animations, and learn how technology is used in the film and media industry!
+Bring your friends! No previous computer experience is necessary. Have your friends join too - the Creative Coding Storytelling club is social and fun!",FALSE
+"Creative Coding - Friends","October 31, 2018 5:00pm","October 31, 2018 7:00pm","Leonel Castillo Baker Ripley Community Center","2:00",NA,"Coding and the Arts","Create cool projects with a friend! Design and program your own two-player games, create animated stories, and imagine
 your future. Learn about how people change
 the world with computers. Grab a friend and sign up!
 You don’t need any experience with computers to sign up. Just bring your creativity and curiosity!",FALSE
-"Maker Modules at IDEAStudio","October 19, 2018 9:00am","October 19, 2018 2:00pm","Houston Community College - West Houston Institute","5:00",NA,"Invent to Learn","The Maker Modules program for IDEAS Academy builds the creative and maker capacity of IDEAS Academy students in preparation for their Spring Design Challenge.  Students are empowered to imagine innovative solutions based on their intent and purpose through 3 project-based learning modules.",FALSE
-"Maker Modules at IDEAStudio","October 26, 2018 9:00am","October 26, 2018 2:00pm","Houston Community College - West Houston Institute","5:00",NA,"Invent to Learn","The Maker Modules program for IDEAS Academy builds the creative and maker capacity of IDEAS Academy students in preparation for their Spring Design Challenge.  Students are empowered to imagine innovative solutions based on their intent and purpose through 3 project-based learning modules.",FALSE
-"Maker Modules at IDEAStudio","November 2, 2018 9:00am","November 2, 2018 2:00pm","Houston Community College - West Houston Institute","5:00",NA,"Invent to Learn","The Maker Modules program for IDEAS Academy builds the creative and maker capacity of IDEAS Academy students in preparation for their Spring Design Challenge.  Students are empowered to imagine innovative solutions based on their intent and purpose through 3 project-based learning modules.",FALSE
-"Maker Modules at IDEAStudio","November 9, 2018 9:00am","November 9, 2018 2:00pm","Houston Community College - West Houston Institute","5:00",NA,"Invent to Learn","The Maker Modules program for IDEAS Academy builds the creative and maker capacity of IDEAS Academy students in preparation for their Spring Design Challenge.  Students are empowered to imagine innovative solutions based on their intent and purpose through 3 project-based learning modules.",FALSE
-"Maker Modules at IDEAStudio","November 16, 2018 9:00am","November 16, 2018 2:00pm","Houston Community College - West Houston Institute","5:00",NA,"Invent to Learn","The Maker Modules program for IDEAS Academy builds the creative and maker capacity of IDEAS Academy students in preparation for their Spring Design Challenge.  Students are empowered to imagine innovative solutions based on their intent and purpose through 3 project-based learning modules.",FALSE
-"Maker Modules at IDEAStudio","December 7, 2018 9:00am","December 7, 2018 2:00pm","Houston Community College - West Houston Institute","5:00",NA,"Invent to Learn","The Maker Modules program for IDEAS Academy builds the creative and maker capacity of IDEAS Academy students in preparation for their Spring Design Challenge.  Students are empowered to imagine innovative solutions based on their intent and purpose through 3 project-based learning modules.",FALSE
+"Invent to Learn at HCC West Houston Institute","October 19, 2018 9:00am","October 19, 2018 2:00pm","Houston Community College - West Houston Institute","5:00",NA,"Invent to Learn","The Invent to Learn program at HCC West Houston Institute builds the creative and maker capacity of students in IDEAStudio.  Students are empowered to imagine innovative solutions based on their intent and purpose through project-based learning.",FALSE
+"Invent to Learn at HCC West Houston Institute","October 26, 2018 9:00am","October 26, 2018 2:00pm","Houston Community College - West Houston Institute","5:00",NA,"Invent to Learn","The Invent to Learn program at HCC West Houston Institute builds the creative and maker capacity of students in IDEAStudio.  Students are empowered to imagine innovative solutions based on their intent and purpose through project-based learning.",FALSE
+"Invent to Learn at HCC West Houston Institute","November 2, 2018 9:00am","November 2, 2018 2:00pm","Houston Community College - West Houston Institute","5:00",NA,"Invent to Learn","The Invent to Learn program at HCC West Houston Institute builds the creative and maker capacity of students in IDEAStudio.  Students are empowered to imagine innovative solutions based on their intent and purpose through project-based learning.",FALSE
+"Invent to Learn at HCC West Houston Institute","November 9, 2018 9:00am","November 9, 2018 2:00pm","Houston Community College - West Houston Institute","5:00",NA,"Invent to Learn","The Invent to Learn program at HCC West Houston Institute builds the creative and maker capacity of students in IDEAStudio.  Students are empowered to imagine innovative solutions based on their intent and purpose through project-based learning.",FALSE
+"Invent to Learn at HCC West Houston Institute","November 16, 2018 9:00am","November 16, 2018 2:00pm","Houston Community College - West Houston Institute","5:00",NA,"Invent to Learn","The Invent to Learn program at HCC West Houston Institute builds the creative and maker capacity of students in IDEAStudio.  Students are empowered to imagine innovative solutions based on their intent and purpose through project-based learning.",FALSE
+"Invent to Learn at HCC West Houston Institute","December 7, 2018 9:00am","December 7, 2018 2:00pm","Houston Community College - West Houston Institute","5:00",NA,"Invent to Learn","The Invent to Learn program at HCC West Houston Institute builds the creative and maker capacity of students in IDEAStudio.  Students are empowered to imagine innovative solutions based on their intent and purpose through project-based learning.",FALSE
