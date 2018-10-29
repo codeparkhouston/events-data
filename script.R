@@ -6,7 +6,7 @@ sites <- read.csv('./Sites-Main View.csv',
 events <- read.csv('./Events-All.csv',
                    stringsAsFactors = FALSE)
 
-events <- events[c(2, 6:8, 10, 12,  14, 15, 38)]
+events <- events[c(2, 5:7, 9, 11, 13, 14, 31)]
 colnames(events)[colnames(events) == 'Adults'] <- 'for_adults'
 colnames(events)[colnames(events) == 'Program.Name'] <- 'program_type'
 events$for_adults <- events$for_adults == "checked"
