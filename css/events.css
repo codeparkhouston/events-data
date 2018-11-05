@@ -1,0 +1,45 @@
+#events {
+  height: 300px;
+  overflow: auto;
+  position: relative;
+}
+
+.events-by-date--date {
+  font-weight: 800;
+  font-family: 'Source Code Pro';
+  color: #5fcc5f;
+}
+
+.events-by-date--event {
+  margin: 1em 0;
+  border-bottom: 1px dotted #965bd2;
+}
+.events-by-date--event:last-child {
+  border-bottom: 1px solid #965bd2;
+}
+
+.event--description,
+.event--location {
+  font-size: 0.75em;
+  line-height: 1.35em;
+}
+
+.event--program-title {
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 0;
+}
+
+.event--program-title--time {
+  font-weight: 100;
+  font-family: 'Source Code Pro';
+}
+
+.event--description {
+  margin-top: 0;
+}
+
+.event--image {
+  width: 100%;
+}
