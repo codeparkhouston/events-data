@@ -56,7 +56,11 @@ function handleEventsCSV(response) {
     })
   }, eventsByDatesElements)
 
-  $picker.data('datepicker').selectDate(moment().toDate())
+  setTimeout(
+    function() {
+      $picker.data('datepicker').selectDate(moment().toDate())
+    }, 200
+  )
 }
 
 Papa.parse("./Events-All.csv", {
