@@ -6,25 +6,36 @@ function renderCell (eventsDates, eventsByDates, eventsElement, date, cellType) 
 
   if (cellType == 'day' && eventsDates.includes(cellDateAsISO)) {
     return {
-      html: currentDate + '<span class="dp-note"></span>'
+      html: `
+<div class="datepicker--cell-day--date">
+  ${currentDate}
+</div>
+<div class="has-events"></div>
+      `
     }
   }
 }
+
+let LAST_SCROLLED = moment().valueOf()
+let CURRENT_EVENT_DATE = moment().format(DATA_ISO_DATE_FORMAT)
 
 function onCellSelect (eventsDates, eventsByDates, eventsElement, fd, date) {
   const cellDateAsISO = moment(date).format(DATA_ISO_DATE_FORMAT)
   const $eventsElement = $(eventsElement)
 
+  CURRENT_EVENT_DATE = cellDateAsISO
   $eventsElement.scrollTo(`#${cellDateAsISO}`, 200)
 }
 
-function handleEventsByDateInView ($picker) {
-  // $picker.data('datepicker').selectDate(moment(this.element.id).toDate())
-}
-
-// document.getElementById('events').addEventListener('scroll', function () {
-
+// document.getElementById('events').addEventListener('scroll', function() {
+//   LAST_SCROLLED = moment().valueOf()
 // })
+
+function handleEventsByDateInView ($picker) {
+  if (LAST_SCROLLED === moment().valueOf() && CURRENT_EVENT_DATE !== this.element.id ) {
+    $picker.data('datepicker').selectDate(moment(this.element.id).toDate())
+  }
+}
 
 function handleEventsCSV(response) {
   const eventsByDates = getEventsByDateFromCSV(response)
@@ -45,8 +56,9 @@ function handleEventsCSV(response) {
     onSelect: R.partial(onCellSelect, pickerEventArgs),
   })
 
+  
   const eventsByDatesElements = document.querySelectorAll('.events-by-date')
-
+  
   var waypoints = R.map(function(eventsByDatesElement) {
     return new Waypoint({
       element: eventsByDatesElement,
@@ -55,10 +67,13 @@ function handleEventsCSV(response) {
       offset: -5,
     })
   }, eventsByDatesElements)
-
+  
   setTimeout(
     function() {
-      $picker.data('datepicker').selectDate(moment().toDate())
+      const $firstUpcoming = $('.events-by-date.is-upcoming')
+      $(eventsElement).scrollTo($firstUpcoming, 0)
+      CURRENT_EVENT_DATE = $firstUpcoming.attr('id')
+      $picker.data('datepicker').selectDate(moment(CURRENT_EVENT_DATE).toDate())
     }, 200
   )
 }

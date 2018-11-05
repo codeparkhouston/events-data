@@ -20,6 +20,31 @@
   height: 300px;
   overflow: auto;
   position: relative;
+  border: 1px solid #dbdbdb;
+  border-radius: 4px;
+}
+
+.datepicker--cell {
+  flex-wrap: wrap;
+}
+
+.datepicker--cell-day--date {
+  text-align: center;
+}
+
+.datepicker--cell-day--date {
+  width: 100%;
+}
+
+.datepicker--cell-day--date + .has-events {
+  width: 50%;
+  height: 2px;
+  position: absolute;
+  bottom: 3px;
+  background: #965bd2;
+  /* border-bottom: 2px solid #965bd2;
+  border-bottom-left-radius: 4px;
+  border-bottom-right-radius: 4px; */
 }
 
 .events-by-date {
