@@ -1,7 +1,33 @@
+#events-viewer {
+  display: flex;
+}
+
+#events-viewer .datepicker--day-name {
+  color: #965bd2;
+}
+
+#events-viewer .datepicker--cell.-current- {
+  color: #5fcc5f;
+}
+
+#events-viewer .datepicker--cell.-selected-,
+#events-viewer .datepicker--cell.-selected-.-current- {
+  color: #FFFFFF;
+  background: #5fcc5f;
+}
+
 #events {
   height: 300px;
   overflow: auto;
   position: relative;
+}
+
+.events-by-date {
+  background: #EFEFEF;
+}
+
+.events-by-date.is-upcoming {
+  background: #FFFFFF;
 }
 
 .events-by-date--date {
@@ -11,7 +37,7 @@
 }
 
 .events-by-date--event {
-  margin: 1em 0;
+  margin: 0;
   border-bottom: 1px dotted #965bd2;
 }
 .events-by-date--event:last-child {
