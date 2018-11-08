@@ -37,8 +37,21 @@ function handleEventsByDateInView ($picker) {
   }
 }
 
+function storeEventsBySitePromise(events, siteName) {
+  return localforage.setItem(`events/${siteName}`, events)
+}
+
 function handleEventsCSV(response) {
-  const eventsByDates = getEventsByDateFromCSV(response)
+  const eventsWithDateInfo = getEventsWithDateInfoFromCSV(response)
+  const eventsByDates = R.groupBy(R.path(['eventDateInfo', 'eventISODate']))(eventsWithDateInfo)
+
+  const eventsBySites = R.groupBy(R.prop('Site'))(eventsWithDateInfo)
+  const storeEventsBySitesPromises = R.pipe(
+    R.mapObjIndexed(storeEventsBySitePromise),
+    R.values,
+  )
+  Promise.all(storeEventsBySitesPromises(eventsBySites))
+
   const eventsDates = R.keys(eventsByDates)
 
   const eventsElement = renderEventsByDate(eventsByDates)
@@ -55,7 +68,6 @@ function handleEventsCSV(response) {
     onRenderCell: R.partial(renderCell, pickerEventArgs),
     onSelect: R.partial(onCellSelect, pickerEventArgs),
   })
-
   
   const eventsByDatesElements = document.querySelectorAll('.events-by-date')
   

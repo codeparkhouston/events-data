@@ -27,8 +27,6 @@ function getEventDateInfo ( { Start, End } ) {
   const eventISODate = startMoment.format(DATA_ISO_DATE_FORMAT)
 
   return {
-    startMoment,
-    endMoment,
     startTimestamp,
     endTimestamp,
     durationPhrase,
@@ -152,6 +150,11 @@ function renderEvents (eventsHTML) {
 }
 
 const getDataFromCSV = R.prop(DATA_PATH)
+
+const getEventsWithDateInfoFromCSV = R.pipe(
+  getDataFromCSV,
+  processEventsData,
+)
 
 const getEventsByDateFromCSV = R.pipe(
   getDataFromCSV,
