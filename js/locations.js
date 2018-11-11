@@ -22,6 +22,16 @@ const ACTIVE_MARKER_STYLES =  {
   weight: 2,
 }
 
+const HOUSEHOLD_POVERTY_INCOME = 24858
+const MIDDLE_CLASS_LOWER = 37900
+const HOUSEHOLD_LOW_INCOME = 48072
+const HOUSEHOLD_LOW_INCOME_EST = 57200
+const MIDDLE_CLASS_UPPER = 113130
+
+const INCOME_TO_COLOR = d3.scaleThreshold()
+  .domain([HOUSEHOLD_POVERTY_INCOME, HOUSEHOLD_LOW_INCOME_EST, MIDDLE_CLASS_UPPER])
+  .range(['#A07A19', '#AC30C0', '#EB9A72', '#BA86F5'])
+
 function makeSiteMarker(site) {
   return L.circleMarker([
     site.lat,
@@ -70,6 +80,46 @@ const getSortedIncomesFromFeatures = R.pipe(
   R.sortBy(R.identity),
 )
 
+function getCodeParkSitesInFeatures(sites, geoJSONData) {
+
+  return geoJSONData.features.map(function(feature) {
+    const codeParkSites = sites.filter(function(site){
+      return feature.geometry.coordinates.reduce(function (result, coords) {
+        return pointInPolygon([site.lon, site.lat], coords) || result
+      }, false)
+    })
+
+    return R.mergeDeepRight(feature, {
+      properties: {
+        codeParkSites,
+      },
+    })
+  })
+}
+
+function setFeatureForSites(feature) {
+  return feature.properties.codeParkSites.map(function(site) {
+    return localforage.setItem(`features/${site.Name}`, feature)
+  })
+}
+
+function setFeaturesForSites([ featuresWithoutCodePark, featuresWithCodePark ]) {
+  const setFeaturesPromises = R.map(setFeatureForSites)(featuresWithCodePark)
+  return [ featuresWithoutCodePark, featuresWithCodePark ]
+}
+
+// const allIncomes = getSortedIncomesFromFeatures(geoJSONData.features)
+
+// const incomeMin = allIncomes[0]
+// const incomeMax = R.last(allIncomes)
+
+// window.allIncomes = allIncomes
+
+const hasCodeParkSites = R.pipe(
+  R.path(['properties', 'codeParkSites']),
+  R.isEmpty,
+)
+
 function plotSites(sites) {
   var mymap = L.map('map').setView([29.7604, -95.3698], 11);
 
@@ -90,9 +140,11 @@ function plotSites(sites) {
   Esri_OceanBasemap.addTo(mymap)
   // JusticeMap_income.addTo(mymap)
   // hyddaLayer.addTo(mymap)
-
+  
   const siteMarkers = sites
     .map(makeSiteMarker)
+
+  window.sites = sites
 
   const sitesLayer = L.featureGroup(siteMarkers);
 
@@ -100,53 +152,13 @@ function plotSites(sites) {
     .on('click', handleMarkerClick)
 
   axios.get('./data/Median_Household_Income_by_Census_Block_Group_2010.geojson')
-    .then(function(response) {
-      
-      let geoJSONData = response.data
-
-      const allIncomes = getSortedIncomesFromFeatures(geoJSONData.features)
-
-      const incomeMin = allIncomes[0]
-      const incomeMax = R.last(allIncomes)
-
-      window.allIncomes = allIncomes
-
-      const incomeToColor = d3.scaleLinear()
-        .domain([incomeMin, incomeMax])
-        .range(['white', 'green'])
-
-      const features = geoJSONData.features.map(function(feature) {
-        const codeParkSites = sites.filter(function(site){
-          return feature.geometry.coordinates.reduce(function (result, coords) {
-            return pointInPolygon([site.lon, site.lat], coords) || result
-          }, false)
-        })
-
-        // mutating stuffs...not recommedned.d.d.d.
-        // if (hasCodePark) {
-        //   hasCodePark.geoJSON = feature
-        // }
-
-        return R.mergeDeepRight(feature, {
-          properties: {
-            codeParkSites,
-          },
-        })
-      })
-
-      window.sites = sites
-
-      const [
-        featuresWithoutCodePark,
-        featuresWithCodePark,
-      ] = R.partition(R.pipe(
-        R.path(['properties', 'codeParkSites']),
-        R.isEmpty,
-      ))(features)
-
+    .then(R.prop('data'))
+    .then(R.partial(getCodeParkSitesInFeatures, [sites]))
+    .then(R.partition(hasCodeParkSites))
+    .then(setFeaturesForSites)
+    .then(function([ featuresWithoutCodePark, featuresWithCodePark]) {
       const incomesWithCodePark = getSortedIncomesFromFeatures(featuresWithCodePark)
-
-      console.log(allIncomes, incomesWithCodePark)
+      window.incomesWithCodePark = incomesWithCodePark
 
       const layerWithCodePark = L.geoJSON({
         type: 'FeatureCollection',
@@ -156,7 +168,7 @@ function plotSites(sites) {
           return {
             weight: 2,
             color: '#965bd2',
-            fillColor: incomeToColor(feature.properties.Median_HHI),
+            fillColor: INCOME_TO_COLOR(feature.properties.Median_HHI),
             fillOpacity: 1,
           }
         }
@@ -169,8 +181,8 @@ function plotSites(sites) {
         style: function(feature) {
           return {
             stroke: false,
-            fillColor: incomeToColor(feature.properties.Median_HHI),
-            fillOpacity: 1,
+            fillColor: INCOME_TO_COLOR(feature.properties.Median_HHI),
+            fillOpacity: 0.25,
           }
         }
       })
@@ -183,7 +195,7 @@ function plotSites(sites) {
       layerWithoutCodePark.on('click', function(clickEvent){
         console.log(clickEvent.layer.feature.properties.Median_HHI, 'no code')
       })
-      
+
       layerWithoutCodePark.addTo(mymap);
       layerWithCodePark.addTo(mymap);
     })
@@ -209,7 +221,7 @@ function handleLocationsCSV(response) {
     .then(plotSites)
 }
 
-Papa.parse("./locations-cleaned.csv", {
+Papa.parse('./locations-cleaned.csv', {
   download: true,
   header: true,
 	complete: handleLocationsCSV,
