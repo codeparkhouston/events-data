@@ -59,7 +59,9 @@ function handleMarkerClick(markerClickEvent) {
 
   findSiteByLatLng(marker.getLatLng())
     .then(getEventsBySite)
-    .then(console.log)
+    .then(function (data) {
+      console.log(data, data.site.Name)
+    })
 }
 
 const getSortedIncomesFromFeatures = R.pipe(
@@ -166,7 +168,7 @@ function plotSites(sites) {
       }, {
         style: function(feature) {
           return {
-            weight: 1,
+            stroke: false,
             fillColor: incomeToColor(feature.properties.Median_HHI),
             fillOpacity: 1,
           }
