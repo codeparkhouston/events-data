@@ -11,9 +11,9 @@ function handleLocationsCSV(response) {
       return  L.divIcon({ html: '<span class="cluster-marker--count">' + cluster.getChildCount() +'</span>', className: 'cluster-marker' });
     },
     singleMarkerMode: true,
+    spiderfyOnMaxZoom: false,
   });
 
-  const myIcon = L.divIcon({ html: '<span class="cluster-marker--count">1</span>', className: 'cluster-marker' });
 
   sites.forEach(function(site) {
     eventsLayer.addLayer(L.marker([site.lat, site.lon], {
@@ -26,9 +26,23 @@ function handleLocationsCSV(response) {
     attribution: 'Tiles &copy; Esri &mdash; Sources: GEBCO, NOAA, CHS, OSU, UNH, CSUMB, National Geographic, DeLorme, NAVTEQ, and Esri',
     maxZoom: 13
   })
+  var Hydda_Full = L.tileLayer('https://{s}.tile.openstreetmap.se/hydda/full/{z}/{x}/{y}.png', {
+    maxZoom: 18,
+    attribution: 'Tiles courtesy of <a href="http://openstreetmap.se/" target="_blank">OpenStreetMap Sweden</a> &mdash; Map data &copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a>'
+  })
 
+  var Wikimedia = L.tileLayer('https://maps.wikimedia.org/osm-intl/{z}/{x}/{y}{r}.png', {
+	attribution: '<a href="https://wikimediafoundation.org/wiki/Maps_Terms_of_Use">Wikimedia</a>',
+	minZoom: 1,
+	maxZoom: 19
+})
+var CartoDB_Voyager = L.tileLayer('https://{s}.basemaps.cartocdn.com/rastertiles/voyager/{z}/{x}/{y}{r}.png', {
+	attribution: '&copy; <a href="http://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+	subdomains: 'abcd',
+	maxZoom: 19
+})
   zoomOutToAll(mymap, eventsLayer)
-  Esri_OceanBasemap.addTo(mymap)
+  CartoDB_Voyager.addTo(mymap)
 
   eventsLayer.addTo(mymap)
 
