@@ -2,10 +2,6 @@ function hasLatLon(site) {
   return site.lat && site.lon
 }
 
-function addSiteToMap(map, marker) {
-  marker.addTo(map)
-}
-
 const DEFAULT_MARKER_STYLES = {
   color: '#5fcc5f',
   fillColor: '#965bd2',
@@ -28,9 +24,14 @@ const HOUSEHOLD_LOW_INCOME = 48072
 const HOUSEHOLD_LOW_INCOME_EST = 57200
 const MIDDLE_CLASS_UPPER = 113130
 
-const INCOME_TO_COLOR = d3.scaleThreshold()
+const INCOMES = d3.scaleThreshold()
   .domain([HOUSEHOLD_POVERTY_INCOME, HOUSEHOLD_LOW_INCOME_EST, MIDDLE_CLASS_UPPER])
+
+const INCOME_TO_COLOR = INCOMES.copy()
   .range(['#A07A19', '#AC30C0', '#EB9A72', '#BA86F5'])
+
+const INCOME_TO_LABEL = INCOMES.copy()
+  .range(['poverty', 'low', 'middle', 'high'])
 
 function makeSiteMarker(site) {
   return L.circleMarker([
@@ -92,20 +93,68 @@ function getCodeParkSitesInFeatures(sites, geoJSONData) {
     return R.mergeDeepRight(feature, {
       properties: {
         codeParkSites,
+        incomeLevel: INCOME_TO_LABEL(feature.properties.Median_HHI),
       },
     })
   })
 }
 
 function setFeatureForSites(feature) {
-  return feature.properties.codeParkSites.map(function(site) {
+  return feature.properties.codeParkSites.map(function (site) {
     return localforage.setItem(`features/${site.Name}`, feature)
   })
 }
 
-function setFeaturesForSites([ featuresWithoutCodePark, featuresWithCodePark ]) {
+function setFeaturesForSites({ featuresWithoutCodePark, featuresWithCodePark }) {
   const setFeaturesPromises = R.map(setFeatureForSites)(featuresWithCodePark)
-  return [ featuresWithoutCodePark, featuresWithCodePark ]
+  return { featuresWithoutCodePark, featuresWithCodePark }
+}
+
+function getIncomeForSiteFromFeatures(features, siteName) {
+  return R.pipe(
+    R.find(
+      R.pipe(
+        R.path(['properties', 'codeParkSites']),
+        R.find(R.eqProps({ Name: siteName })),
+      ),
+    ),
+    R.path(['properties', 'Median_HHI']),
+  )(features)
+}
+
+function setFeaturesByLevels({ featuresWithoutCodePark, featuresWithCodePark }) {
+  const featuresByIncomeLevel = R.groupBy(R.path(['properties', 'incomeLevel']), featuresWithCodePark)
+  const sitesByIncomeLevel = R.mapObjIndexed(R.pipe(
+    R.map(R.path(['properties', 'codeParkSites'])),
+    R.unnest,
+    R.map(R.prop('Name')),
+  ), featuresByIncomeLevel)
+
+  const setEventsByIncomeLevelPromises = R.pipe(
+    R.mapObjIndexed(function (siteNames, incomeLevel) {
+      return localforage.setItem(`sitesByIncomeLevel/${incomeLevel}`, siteNames)
+        .then(function () {
+          const getEventsBySitesPromises = R.map(function(siteName) {
+            return getEventsBySite({Name: siteName})
+          })(siteNames)
+
+          return Promise.all(getEventsBySitesPromises)
+        })
+        .then(function (eventsBySites) {
+          console.log(getIncomeForSiteFromFeatures(featuresWithCodePark, 'Gallegos Elementary School'))
+          return localforage.setItem(`eventsByIncomeLevel/${incomeLevel}`, 
+            R.pipe(
+              R.unnest,
+              R.map(R.prop('events')),
+              R.unnest,
+            )(eventsBySites)
+          )
+        })
+    }),
+    R.values,
+  )(sitesByIncomeLevel)
+  
+  return { featuresWithoutCodePark, featuresWithCodePark, sitesByIncomeLevel }
 }
 
 // const allIncomes = getSortedIncomesFromFeatures(geoJSONData.features)
@@ -155,8 +204,10 @@ function plotSites(sites) {
     .then(R.prop('data'))
     .then(R.partial(getCodeParkSitesInFeatures, [sites]))
     .then(R.partition(hasCodeParkSites))
+    .then(R.zipObj(['featuresWithoutCodePark', 'featuresWithCodePark']))
     .then(setFeaturesForSites)
-    .then(function([ featuresWithoutCodePark, featuresWithCodePark]) {
+    .then(setFeaturesByLevels)
+    .then(function({ featuresWithoutCodePark, featuresWithCodePark }) {
       const incomesWithCodePark = getSortedIncomesFromFeatures(featuresWithCodePark)
       window.incomesWithCodePark = incomesWithCodePark
 
