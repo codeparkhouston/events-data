@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/axios/0.18.0/axios.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/PapaParse/4.6.1/papaparse.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/localforage/1.7.2/localforage.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/ramda/0.25.0/ramda.min.js"></script>
+  <script type="text/javascript" src="//code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/moment.js/2.22.2/moment.min.js"></script>
+  <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/classnames/2.2.5/index.min.js"></script>
+
+  <script src="//d3js.org/d3-array.v1.min.js"></script>
+  <script src="//d3js.org/d3-collection.v1.min.js"></script>
+  <script src="//d3js.org/d3-color.v1.min.js"></script>
+  <script src="//d3js.org/d3-interpolate.v1.min.js"></script>
+  <script src="//d3js.org/d3-scale.v2.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/air-datepicker/2.2.3/css/datepicker.min.css">
+  <link charset="utf-8" rel="stylesheet" id="yui_3_17_2_1_1541370563593_127" href="//static.squarespace.com/universal/styles-compressed/pinterest-d41d8cd98f00b204e9800998ecf8427e-min.css">
+  <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato:700,700i,400i,400|Muli:400,400i|Source+Code+Pro:400,500">
+  <link rel="stylesheet" type="text/css" href="//static1.squarespace.com/static/sitecss/59cc06facd0f680d7a60ccbe/85/55f0aac0e4b0f0a5b7e0b22e/59cc06facd0f680d7a60cd0a/317-05142015/1541245266945/site.css?&amp;filterFeatures=false">
+  <link rel="stylesheet" href="//unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css">
+  <link rel="stylesheet" href="//unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css">
+
+  <link rel="stylesheet" type="text/css" href="./css/events.css">
+  <link rel="stylesheet" type="text/css" href="./css/map.css">
+
+  <link rel="stylesheet" href="//unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+  integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+  crossorigin=""/>
+  <script src="//unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+  integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+  crossorigin=""></script>
+  <script src="//unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
+  <script src="./js/point-in-polygon.js"></script>
+</head>
+<body class="tweak-site-width-option-full-background">
+  <div class="Index-page-content">
+    <div id="container" class="sqs-layout sqs-grid-12 columns-12">
+      <div class="row sqs-row" id="events-viewer">
+        <div id="calendar"></div>
+        <div id="events"></div>
+      </div>
+      <div id="map"></div>
+    </div>
+  </div>
+  <script type="text/javascript" src="./js/constants.js"></script>
+  <script type="text/javascript" src="./js/simple.js"></script>
+</body>
+</html>

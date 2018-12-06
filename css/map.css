@@ -5,3 +5,31 @@
 #events, #calendar {
   display: none;
 }
+
+.cluster-marker {
+  width: 40px !important;
+  height: 40px !important;
+  text-align: center;
+  line-height: 40px;
+  background: white;
+  border-radius: 50%;
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.cluster-marker::before,
+.cluster-marker::after {
+  color: #608e53;
+}
+
+.cluster-marker::before {
+  content: '{';
+}
+
+.cluster-marker::after {
+  content: '}';
+}
+
+.cluster-marker--count {
+  color: #5fcc5f;
+}
